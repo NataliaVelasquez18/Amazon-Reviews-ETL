@@ -12,7 +12,7 @@ Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
 * Number of Vine Reviews (Paid):
 
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/Paid_reviews.png" width="150" height="100"/>
+<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/Paid_reviews.png" width="180" height="100"/>
 
 * Number of Non-Vine Reviews (UnPaid):
 
