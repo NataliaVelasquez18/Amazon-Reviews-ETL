@@ -6,11 +6,13 @@ The purpose of this analysis is to determine whether Amazon reviews written by m
 
 Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" width="450" height="350" />
+
 ## Results: 
 
 * Number of Vine Reviews (Paid):
 
-<img scr="https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/Paid_reviews.png" />
+<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/Paid_reviews.png" width="450" height="350"/>
 
 * Number of Non-Vine Reviews (UnPaid):
 
