@@ -6,8 +6,6 @@ The purpose of this analysis is to determine whether Amazon reviews written by m
 
 Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" width="450" height="350" />
-
 ## Results: 
 
 * Number of Vine Reviews (Paid):
