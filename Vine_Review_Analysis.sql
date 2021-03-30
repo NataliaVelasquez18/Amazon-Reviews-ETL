@@ -44,6 +44,8 @@ INTO nonpaid_reviews
 FROM helpful_votes_over50_percent
 WHERE vine = 'N';
 
+
+
 -- total number of reviews: 40,565
 SELECT COUNT( DISTINCT review_id)
 FROM helpful_votes_over50_percent;
@@ -53,7 +55,21 @@ SELECT COUNT( DISTINCT review_id)
 FROM helpful_votes_over50_percent
 WHERE star_rating = 5;
 
--- percentage of 5-star reviews for paid reviews: 48
+-- 5 star paid reviews: 48
+SELECT COUNT( DISTINCT review_id) AS Helpful_Paid_5star
+FROM helpful_votes_over50_percent
+WHERE star_rating = 5 
+AND vine = 'Y';
+
+
+--- 5 star non-paid reviews: 15,663
+SELECT COUNT( DISTINCT review_id) AS Helpful_NonPaid_5star
+FROM helpful_votes_over50_percent
+WHERE star_rating = 5 
+AND vine = 'N';
+
+
+-- percentage of 5-star reviews for paid reviews: 
 SELECT 
 (COUNT(DISTINCT review_id) * 100
 FROM helpful_votes_over50_percent
@@ -65,7 +81,7 @@ FROM helpful_votes_over50_percent
 WHERE star_rating = 5 );
 
 
--- percentage of 5-star reviews for unpaid reviews: 15,663
+-- percentage of 5-star reviews for unpaid reviews: 
 SELECT 
 (COUNT(DISTINCT review_id) * 100
 FROM helpful_votes_over50_percent
@@ -76,23 +92,6 @@ AND vine = 'N') /
 FROM helpful_votes_over50_percent
 WHERE star_rating = 5 );
 
--- * percentage of HELPFUL PAID reviews:
-SELECT 
-(COUNT(DISTINCT review_id) * 100
-FROM helpful_votes_over50_percent
-WHERE vine = 'Y') / 
- 
-(SELECT COUNT( DISTINCT review_id)
-FROM helpful_votes_over50_percent;
 
-
--- * percentage of Helpful reviews for unpaid reviews
-SELECT 
-(COUNT(DISTINCT review_id) * 100
-FROM helpful_votes_over50_percent
-WHERE vine = 'N') / 
- 
-(SELECT COUNT( DISTINCT review_id)
-FROM helpful_votes_over50_percent;
 
 
