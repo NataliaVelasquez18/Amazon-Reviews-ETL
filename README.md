@@ -10,6 +10,8 @@ Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
 <img scr:"https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/reviews_results.png" />
 
+https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/reviews.png
+
 
 ## Summary 
 
