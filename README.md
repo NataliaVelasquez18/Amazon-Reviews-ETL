@@ -8,33 +8,7 @@ Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
 ## Results: 
 
-
-* How many Vine reviews and non-Vine reviews were there?
-
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
-
-create table to show a table reviews >> vine # non vine #
-
-
-* How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-
-create new table for 5 star reviews >>> vine#, non vine#
-
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
-
-
-
-* What percentage of Vine reviews were 5 stars? 
-
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
-
-51%
-
-* What percentage of non-Vine reviews were 5 stars?
-
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
-
-39%
+<img src:"https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/reviews_results.png" />
 
 
 ## Summary 
