@@ -8,41 +8,35 @@ Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
 
 ## Results: 
 
-* Number of Vine Reviews (Paid):
 
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/Paid_reviews.png" width="180" height="100"/>
+* How many Vine reviews and non-Vine reviews were there?
 
-* Number of Non-Vine Reviews (UnPaid):
+<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
+
+create table to show a table reviews >> vine # non vine #
+
+
+* How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+create new table for 5 star reviews >>> vine#, non vine#
 
 <img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
 
 
-* Helpful Paid
 
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/helpful_paid.png" width="180" height="100"/>
+* What percentage of Vine reviews were 5 stars? 
 
+<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
 
-* Helpful Unpaid
+51%
 
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/helpful_unpaid.png" width="180" height="100"/>
+* What percentage of non-Vine reviews were 5 stars?
 
-* Vine reviews with 5 stars:
+<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/non_paid_reviews.png" width="180" height="100"/>
 
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/helpful_paid_5star.png" width="180" height="100"/>
-
-
-* Non-Vine reviews with 5 stars:
-
-<img src= "https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/helpful_nonpaid_5star.png" width="180" height="100"/>
+39%
 
 
-* Percentage of Vine reviews with 5 stars
+## Summary 
 
-
-
-* Percentage of non-Vine reviews with 5 stars
-
-
-## Summary: 
-
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+It appears to be a significant difference between the 5 stars reviews of the vine program compared to the non paid reviews.  Therefore, the results indicate a potential bias for reviews in the vine program.  An additional analysis that could be done in the dataset to dive deeper into the matter is .......
