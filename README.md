@@ -22,38 +22,28 @@ The purpose of this study is to help Dream Games to understand potential bias in
 
 *  After the data is loaded into PGAdmin, some queries are performed to create new tables, perform calculations, and summarize the main metrics for this analysis:      Percentage of five star reviews for Vine Program vs Non Vine Program. The SQL code is found in the [Vine Review Analysis](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Vine_Review_Analysis.sql) file.
 
-* 
-
-*   
-*     with only target columns, 
-* 
-* 
-* with the purpose of making the data available for Dream Games, an instance of  is configured. 
-* that you have a good idea of what AWS does, it's time to use it for hosting the database for your client. You decide to go with a Postgres database for the many benefits and host it on AWS.
-
-* Due to the large size of the data,     The reviews data is read as a dataframe, 4 tables are created from the dataframe 
+* The final data for visualization is read on a Pandas dataframe and plotted using Matplotlib. The [Visualization](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Visualization.ipynb) file contains the code.
 
 
+## Executive Summary:
 
-*  
-*   
-*     (Extract, Transform, Load).
-* An instance of AWS RDS (Amazon Web Services Relational Database Service) is configured
+* Total reviews of Vine Program: 94. Total 5-star reviews: 48. Percentage of 5-star reviews: 51% 
+* Total reviews for non Vine Program products: 40,471. Total 5-star reviews: 15,663. Percentage of 5-star reviews: 39% 
+* The results indicate a potential bias towards five star reviews for products belonging to the Vine Program. 
 
-In this project, you’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. You’ll need to pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, you’ll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. Then, you’ll write a summary of the analysis for Jennifer to submit to the SellBy stakeholders.
-
-Our CSV file contains 1,785,997 reviews.  The analysis was done using SQL.
+ 
 
 ## Results: 
+
+As we can see the number of unpaid reviews is the majority of our data.  Only 39% of the unpaid reviews have five star rating and 51% of the paid reviews have five star rating.
 
 <img src="https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/reviews_results.png" width="450" height="250" />
 
 <img src="https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Resources/reviews.png" width="450" height="250" />
 
 
-As we can see the number of unpaid reviews is the majority of our data.  Only 39% of the unpaid reviews have five star rating and 51% of the paid reviews have five star rating.
 
 
-## Summary 
+## Recommendations:
 
-It appears to be a significant difference between the 5 stars reviews of the vine program compared to the non paid reviews.  Therefore, the results indicate a potential bias for reviews in the vine program.  An additional study can be done including more data of the verified purchases and of the different demographics. A sentiment analysis can be performed to identify the overall image of products on the web.
+* Our results indicate that by subscribing to the Vine Program the positive rating of the product in the video game category will increase.  However, ethical considerations need to be taken in account and it is recommended that Dream Games keeps improving the product and delivering high quality for it's customers.
