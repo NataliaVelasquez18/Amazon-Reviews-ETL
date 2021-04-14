@@ -1,4 +1,4 @@
-# Big Data (ETL): Analyzing Bias in Amazon Paid Review Program
+# Big Data with PySpark: Analyzing Bias in Amazon Paid Review Program
 
 ## Business Problem:
 
