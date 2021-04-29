@@ -11,17 +11,17 @@ The purpose of this study is to help the executive team of DreamGames to decide 
 
 ## Overview of approach:
 
-* [Public data of Amazon reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) is analyzed for the category video games.
+* [Public data of Amazon reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) is analyzed for the category video games
 
-* Postgres was configured and selected as a Database Management System
+* Postgres was configured and selected as the Database Management System for the project
 
-* The database is hosted on the cloud using Amazon Web Services Relational Database Service
+* The Postgres database is hosted on the cloud using Amazon Web Services Relational Database Service
 
-* PySpark is used to perform the ETL process: Extract the data from the web, read the data into a dataframe, create 4 dataframes: customers, products, reviews,       vine, load the transformed data into PgAdmin.  The [Amazon_Reviews_ETL](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Amazon_Reviews_ETL.ipynb) file contains the code.
+* PySpark is used to perform the ETL process: Extract the data from the web, read the data into a dataframe, create 4 dataframes: customers, products, reviews,       vine, load the transformed data into Postgres.  The [Amazon_Reviews_ETL](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Amazon_Reviews_ETL.ipynb) notebook contains the code.
 
-*  After the data is loaded into PGAdmin, some queries are performed to create new tables, perform calculations, and summarize the main metrics for this analysis:      Percentage of five star reviews for Vine Program vs Non Vine Program. The SQL code is found in the [Vine Review Analysis](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Vine_Review_Analysis.sql) file.
+*  After the data is loaded into Postgres, some queries are performed to create the final report for our analysis:      Percentage of five star reviews for Vine Program vs Non Vine Program. The SQL code is found in the [Vine Review Analysis](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Vine_Review_Analysis.sql) file.
 
-* The final data for visualization is read on a Pandas dataframe and plotted using Matplotlib. The [Visualization](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Visualization.ipynb) file contains the code.
+* Finally, the Postgres database is accessed using Python's library SQLAlchemy to extract the report with the findings.  Data is read in Python and some visualizations are created using Python's library matplotlib. The [Visualization](https://github.com/NataliaVelasquez18/Amazon-Reviews-ETL/blob/main/Visualization.ipynb) notebook contains the code.
 
 
 ## Executive Summary:
