@@ -2,12 +2,11 @@
 
 ## Business Problem:
 
-Dream Games is a videogame producer and distributor who has recently joined Amazon as a vendor.  Sales haven't been as expected and it is taking some time to Dream Games to accummulate enough reviews to look attractive compared to their competitors on the Amazon site.  The company is analyzing the possibility of joining the Amazon Vine Program. Amazon Vine invites customers to receive a product for free in exchange for a review. The executives of Dream Games would like to know whether reviews coming from the Vine Program have higher 5 star rating or not.
-
+Dream Games is a videogame producer and distributor who has recently joined Amazon as a vendor.  Sales haven't been as expected and it is taking some time to Dream Games to accummulate enough reviews to look attractive compared to their competitors on the Amazon site.  The company is analyzing the possibility of joining the Amazon Vine Program. Amazon Vine invites customers to receive a product for free in exchange for a review. The executive team of DreamGames wants to know if by joining the Amazon paid review program will generate a positive return on investment (ROI).
 
 ## Purpose
 
-The purpose of this study is to help the executive team of DreamGames, an online videogame vendor, to decide if by joining the Amazon paid review program will generate a positive return on investment (ROI).
+The purpose of this study is to help the executive team of DreamGames to decide if by joining the Amazon paid review program will generate a positive return on investment (ROI).
 
 
 ## Overview of approach:
