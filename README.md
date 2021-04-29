@@ -7,7 +7,7 @@ Dream Games is a videogame producer and distributor who has recently joined Amaz
 
 ## Purpose
 
-The purpose of this study is to help the executive team of DreamGames to decide whether to join the Amazon paid review program will generate a positive return on investment (ROI).
+The purpose of this study is to help the executive team of DreamGames, an online videogame vendor, to decide if by joining the Amazon paid review program will generate a positive return on investment (ROI).
 
 
 ## Overview of approach:
