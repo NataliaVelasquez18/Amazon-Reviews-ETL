@@ -2,12 +2,12 @@
 
 ## Business Problem:
 
-Dream Games is a videogame producer and distributor who has recently joined Amazon as a vendor.  Sales haven't been as expected and it is taking some time to Dream Games to accummulate enough reviews to look attractive compared to their competitors on the Amazon site.  The company is analyzing the possibility of joining the Amazon Vine Program. Amazon Vine invites customers to receive a product for free in exchange for a review. The executives of Dream Games would like to know whether reviews coming from the Vine Program are biased towards having higher ratings to assess the benefits of the program.
+Dream Games is a videogame producer and distributor who has recently joined Amazon as a vendor.  Sales haven't been as expected and it is taking some time to Dream Games to accummulate enough reviews to look attractive compared to their competitors on the Amazon site.  The company is analyzing the possibility of joining the Amazon Vine Program. Amazon Vine invites customers to receive a product for free in exchange for a review. The executives of Dream Games would like to know whether reviews coming from the Vine Program have higher 5 star rating or not.
 
 
 ## Purpose
 
-The purpose of this study is to help Dream Games to understand potential bias in the Amazon Vine Program before they make the decision to join it.  Dream Games wants to know if by joining the program and investing in giving free products to potential reviewers will help them to have high rating and greater volume of reviews.
+The purpose of this study is to help the executive team of DreamGames to decide whether to join the Amazon paid review program will generate a positive return on investment (ROI).
 
 
 ## Overview of approach:
